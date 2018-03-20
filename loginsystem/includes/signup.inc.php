@@ -1,10 +1,10 @@
 <?php
 
-if (isset($_POST['submit'])) {          //hier komen de submit gegevens van signup.php aan.
+if (isset($_POST['submit'])) {          //hier wordt gecheckt of de submitknop is ingedrukt en dan pas worden de gegevens overgezet
 	
 	include_once 'dbh.inc.php';     //connectie met de database wordt hier in gemaakt.
 
-	$first = $_POST['first'];
+	$first = $_POST['first'];       //vanuit invoervelden in bestand signup worden hier de gegevens in vars gestopt
 	$last = $_POST['last'];
 	$email = $_POST['email'];
 	$uid = $_POST['uid'];
