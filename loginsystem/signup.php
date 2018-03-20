@@ -1,10 +1,10 @@
 <?php
 	include_once 'header.php';
 ?>
-	<section class="main-container">
-		<div class="main-wrapper">
+	<section class="main-container"> 
+		<div class="main-wrapper"> 
 			<h2>Sign up</h2>
-			<form class="signup-form" action="includes/signup.inc.php" method="POST">
+			<form class="signup-form" action="includes/signup.inc.php" <!--method="POST"> om geen gevoelige data in de url te krijgen moet er met post gezonden worden-->
 				<input type="text" name="first" placeholder="Firstname">
 				<input type="text" name="last" placeholder="Lastname">
 				<input type="text" name="email" placeholder="E-mail">
