@@ -26,7 +26,7 @@
                                           <input type="text" class="input" name="uid" placeholder="Gebruikersnaam/e-mail">
                                           <input type="text" class="input" name="pwd" placeholder="Wachtwoord">
                                           <button type="submit" class="button" name="submit">Inloggen</button></form>
-                                          <a href="signup.php">Sign up</a>'; //submit stuurt de logingegevens naar de login.inc.php waar ze worden gecheckt en opgeslagen in de session
+                                          <a class="button" href="signup.php" >Inschrijven</a>'; //submit stuurt de logingegevens naar de login.inc.php waar ze worden gecheckt en opgeslagen in de session
                             }           //hierboven staat een link om aan te melden als je nog geen gebruiker bent
                     ?>
                      </div>   

@@ -1,0 +1,57 @@
+
+body{
+    background: url('img/lingo.png') fixed no-repeat ;;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 5px;
+    color: black;
+}
+
+.main-container{
+    margin-top: 100px;
+}
+
+
+.nav-login{
+    width: 400px;
+    height: 200px;
+    box-sizing: inline;
+    background-color: rgba(0, 0 , 0, 0.74);
+    border-radius: 5px;
+    color: white;
+    margin: auto;
+}
+
+
+
+.nav-login, .loginInput{
+    margin-top: 100px;
+    /*float: left;*/
+    /*box-sizing: border-box;*/
+}
+
+.button{
+    text-align: center;
+
+    padding: 10px;
+    float:left;
+    background: white;
+    margin: 2px;
+    color: black;
+    border-radius: 10%;
+
+}
+input{
+    font-size: 17px;
+
+}
+#signup, #inlog{
+/*               margin-bottom:75px;*/
+}     
+
