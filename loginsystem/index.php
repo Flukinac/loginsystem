@@ -6,7 +6,7 @@
 			<h2>Home</h2>
 			<?php
 				if (isset($_SESSION['u_id'])){
-					echo "you are logged in";
+					echo "Je bent ingelogd";
 				}
 			?>		
 		</div>
